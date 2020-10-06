@@ -2,8 +2,8 @@ import { Button, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 import * as React from "react";
 import { useSelector } from "react-redux";
-import { HomeBox } from "../components";
-import { RootState } from "../reducers";
+import { HomeBox } from "../../components";
+import { RootState } from "../../reducers";
 
 export function HomePage() {
 	const classes = useStyles();

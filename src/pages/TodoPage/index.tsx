@@ -2,7 +2,7 @@ import { Button, Grid, Typography } from "@material-ui/core";
 import { Theme } from "@material-ui/core/styles";
 import { makeStyles } from "@material-ui/styles";
 import * as React from "react";
-import { TodoDialog, TodoTable } from "../components";
+import { TodoDialog, TodoTable } from "../../components";
 
 export function TodoPage() {
 	const classes = useStyles();

@@ -91,3 +91,6 @@ This example demonstrate how you can use [Create React App](https://github.com/f
 -   [Anton Spöck](https://github.com/spoeck)
 
 Powered by [innFactory](https://innfactory.de/)
+
+Coding practices:
+1. In components and page folder create a folder containing the index file which contains the components code. MAke sure to name the folder same as the components name.

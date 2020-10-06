@@ -1,5 +1,5 @@
-import { TodoAction, TodoActions, Todo } from "../model";
-import createReducer from "./createReducer";
+import { TodoAction, TodoActions, Todo } from "../../model";
+import createReducer from "../createReducer";
 
 export const todoList = createReducer<Todo[]>([], {
 	[TodoActions.ADD_TODO](state: Todo[], action: TodoAction) {
